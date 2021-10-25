@@ -1,0 +1,42 @@
+.section{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+}
+
+.section-container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.section-container::-webkit-scrollbar{
+    display: none;
+}
+
+.section-heading{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-container{
+    padding-right: 1rem;
+}
+
+.card-sub-heading{
+    font-size: 0.7rem;
+    font-weight: 500;
+    color: rgb(148, 147, 147);
+}
+
+.card-img{
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+}
+
+.card-name{
+    font-weight: 800;
+    font-size: .9rem;
+    padding-top: 0.4rem;
+}

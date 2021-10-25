@@ -1,0 +1,45 @@
+.section{
+    padding-left: 1rem;
+    padding-bottom: 2rem;
+    
+}
+
+.artist-section-container{
+    display: flex;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    padding-bottom: 5rem;
+}
+
+.section-container::-webkit-scrollbar{
+    display: none;
+}
+
+.section-heading{
+    font-size: 1.4rem;
+    padding-top: 1rem;
+    padding-bottom: 1.5rem;
+}
+
+.card-container{
+    padding-right: 1rem;
+}
+
+.card-sub-heading{
+    font-size: 0.7rem;
+    font-weight: 900;
+    color: rgb(148, 147, 147);
+}
+
+.card-img{
+    /* background-image: url("https://img.discogs.com/RNQZJTHxu6rBQuIfxYTF-NLoVJo=/fit-in/300x300/filters:strip_icc():format(jpeg):mode_rgb():quality(40)/discogs-images/R-8230878-1457584164-7578.jpeg.jpg"); */
+    width: 130px;
+    height: 130px;
+    background-size: cover;
+}
+
+.card-name{
+    font-weight: 800;
+    font-size: .9rem;
+    padding-top: 0.4rem;
+}

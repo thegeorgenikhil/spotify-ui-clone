@@ -1,0 +1,35 @@
+.header{
+    display: flex;
+    max-width: 400px;
+    margin: auto;
+    padding: 0.5rem;
+    flex-wrap: wrap;
+}
+
+.header-tile{
+    display: flex;
+    max-width: 130px;
+    height: 60px;
+    background-color: rgb(37, 37, 37);
+    align-items: center;
+    justify-content: center;
+    margin: 0 1rem;
+    border-radius:3px ;
+    overflow: hidden;
+    margin-bottom: 1rem;
+    margin: 0rem auto 1rem auto;
+}
+
+.tile-img{
+    width: 200px;
+    height: 100%;
+    background-size: cover;
+}
+
+.tile-content{
+    font-size: 0.7rem;
+    align-self: center;
+    font-weight: 800;
+    padding:0 1rem;
+    width: 200px;
+}
